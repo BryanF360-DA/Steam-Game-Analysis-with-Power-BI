@@ -44,4 +44,4 @@ The final phase of this project involves connecting Power BI to the clean SQLite
 * What is the average price and playtime for games in these genres?
 
 ## Final Dashboard
-*(Coming Soon! A link to the published Power BI dashboard will be added here once complete.)*
+![Dashboard Screenshot](https://github.com/BryanF360-DA/Steam-Game-Analysis-with-Power-BI/blob/main/PowerBIScreen.png?raw=true)
