@@ -34,7 +34,7 @@ FROM
     steamspy_data
 WHERE
     (genre LIKE '%Strategy%' OR genre LIKE '%Simulation%')
-    AND average_forever > 0;
+    AND average_forever > 0;```
 
 
 ## Analysis & Visualization
