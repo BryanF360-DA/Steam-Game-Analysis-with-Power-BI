@@ -34,9 +34,8 @@ FROM
     steamspy_data
 WHERE
     (genre LIKE '%Strategy%' OR genre LIKE '%Simulation%')
-    AND average_forever > 0;```
-
-
+    AND average_forever > 0;
+```
 ## Analysis & Visualization
 The final phase of this project involves connecting Power BI to the clean SQLite database to create an interactive dashboard. The dashboard answers the following key questions:
 * What is the relationship between a game's positive ratings and its average playtime?
