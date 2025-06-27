@@ -14,11 +14,10 @@ The data for this project was sourced from the "Steam Games Dataset" available o
 * **Data Visualization:** Power BI
 
 ## Data Cleaning & Preparation
-In the initial phase, I used SQL in DB Browser for SQLite to clean and prepare the raw dataset. The process involved:
-1.  Loading the raw CSV (85,000+ rows) into a database table named `steam_games`.
-2.  Writing a SQL query to create a new, clean table named `clean_games`.
-3.  This query filtered the dataset to include only games from the 'Strategy' and 'Simulation' genres and removed entries with zero recorded playtime to ensure data quality.
+In the initial phase, I used SQL in DB Browser for SQLite to clean and prepare the raw dataset. This involved writing a SQL query to create a new, clean table that filtered for only the 'Strategy' & 'Simulation' genres and removed entries with zero recorded playtime to ensure data quality.
 
+The query I wrote is as follows:
+```sql
 CREATE TABLE clean_games AS
 SELECT
     appid,
@@ -36,6 +35,7 @@ FROM
 WHERE
     (genre LIKE '%Strategy%' OR genre LIKE '%Simulation%')
     AND average_forever > 0;
+
 
 ## Analysis & Visualization
 The final phase of this project involves connecting Power BI to the clean SQLite database to create an interactive dashboard. The dashboard answers the following key questions:
