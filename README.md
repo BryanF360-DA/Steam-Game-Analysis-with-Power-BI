@@ -25,4 +25,4 @@ The final outcome of this project is a dynamic, interactive dashboard built in P
 
 A screenshot of the final dashboard is included below. As this was developed using a student Power BI license, the fully interactive dashboard is available to view upon request. Please connect with me on LinkedIn, and I will be happy to share it with you directly.
 
-![Dashboard Screenshot]
+![Dashboard Screenshot](PASTE_THE_IMAGE_LINK_YOU_COPIED_HERE)
